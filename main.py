@@ -70,7 +70,7 @@ def choice_char_class() -> str:
         if char_class == 'healer':
             print('Лекарь — могущественный заклинатель.')
         approve_choice = input('(Y), подтвердить, (Z) - пересоздать ').lower()
-    return char_class
+    return char_classп
 
 
 if __name__ == '__main__':
